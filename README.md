@@ -59,11 +59,12 @@ group by t.id
 ```
 
 Write a query to display the ff columns:
-- ID (from teacher.id),
-- Nickname, Open (total open slots from trn_teacher_time_table),
-- Reserved (total reserved slots from trn_teacher_time_table),
-- Taught (total taught from trn_evaluation) and
-- NoShow (total no_show from trn_evaluation) using all tables above.
+- `ID` (from teacher.id),
+- `Nickname`, 
+- `Open` (total open slots from trn_teacher_time_table),
+- `Reserved` (total reserved slots from trn_teacher_time_table),
+- `Taught` (total taught from trn_evaluation) and
+- `NoShow` (total no_show from trn_evaluation) using all tables above.
 
 Should show only those who are active (`trn_teacher.status` = 1 or 2) and those who have both *Trainer* and *Assessor* role.
 
